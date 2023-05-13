@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgba(36, 37, 39, 0.4);; 
+    
+}
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 5vh;
+    left: 450px;
+    bottom: 5vh;
+    
+  /* margin: 100px 150px ;*/
+    padding: 100px 90px;
+    
+    border-radius: 15px;
+    background-color: black;
+    border: 2px solid rgb(29, 35, 148);
+   
+}
+
+#Foambar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#Foambar h1{
+    font-size: 2.8rem;
+    color: white;
+    
+
+}
+.input1{
+    margin: 20px 20px;
+    padding: 10px 10px;
+    color: rgba(91, 112, 131, 0.4);
+
+    
+}
+.input1 input{
+    padding: 10px 100px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.input1 ::placeholder{
+    text-align: center;
+}
+
+#check{
+    padding-right: 45vh;
+}
+
+#btn1{
+    padding: 4px 20px;
+    border-radius: 15px;
+    background-color: rgb(222, 222, 14);
+    
+}
+
+#btn2{
+    padding: 4px 20px;
+    border-radius: 15px;
+    background-color: rgb(16, 136, 16);
+    
+    
+}
+
+#ico{
+    width: 80px;
+    
+}

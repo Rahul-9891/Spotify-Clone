@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Your favourite music is here</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <ul>
+            <li class="brand"><img src="/Photos/logo.png" alt="Spotify"> Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+
+        </ul>
+        <div class="srch">
+            <div class="spac">
+                <input type="search" placeholder="  songs" />
+                <button>search</button>
+            </div>
+            <div class="spac">
+                <button> <a target="_blank" href="Signup.html">Signup</a></button>
+            </div>
+            <div class="spac">
+                <button><a target="_blank" href="Login.html">LogIn</a></button>
+            </div>
+           
+        </div>
+
+    </nav>
+
+
+    <div class="container">
+        <div class="songList">
+            <h1>Best of NCS - No Copyright Sounds</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img alt="0">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp"><img class="AddFav"
+                                src="/Photos/herat blank icon.png" alt=""> <i id="0"
+                                class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp"><img class="AddFav"
+                                src="/Photos/herat blank icon.png" alt=""> <i id="1"
+                                class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp"><img class="AddFav"
+                                src="/Photos/herat blank icon.png" alt=""> <i id="2"
+                                class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp"><img class="AddFav"
+                                src="/Photos/herat blank icon.png" alt="">  <i id="3"
+                                class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp"><img class="AddFav"
+                                src="/Photos/herat blank icon.png" alt="">  <i id="4"
+                                class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp"><img class="AddFav"
+                                src="/Photos/herat blank icon.png" alt="">  <i id="5"
+                                class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp"><img class="AddFav"
+                                src="/Photos/herat blank icon.png" alt="">  <i id="6"
+                                class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp"><img class="AddFav"
+                                src="/Photos/herat blank icon.png" alt=""> <i id="7"
+                                class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp"><img class="AddFav"
+                                src="/Photos/herat blank icon.png" alt="">  <i id="8"
+                                class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp"><img class="AddFav"
+                                src="/Photos/herat blank icon.png" alt="">  <i id="9"
+                                class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="songBanner"></div>
+
+    </div>
+    <div id="containe">
+        <h1>Favourite List</h1>
+        <div class="FavContainer">
+            <img class='imgage' src="/cover photo/2.jpg">
+            <span class="song">Let ME love You </span> <span class="Favphoto"> <img class="photofav"
+                    src="Photos/favheart.png" alt="">
+                <span class="far songItemPlay fa-play-circle"> </span> </span>
+        </div>
+
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i class="fas fa-3x fa-step-backward" id="previous"></i>
+            <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-3x fa-step-forward" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="/Photos/playing.gif" width="42px" alt="" id="gif"> <span id="masterSongName">Warriyo - Mortals
+                [NCS Release]</span>
+        </div>
+
+
+
+
+
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
