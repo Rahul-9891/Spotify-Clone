@@ -189,7 +189,7 @@ nav ul li {
 #containe {
     min-height: 10vh;
     font-family: 'Varela Round', sans-serif;
-    background-image: url('/Photos/favlist\ background.jpg');
+    background-image: url('./Photos/favlist\ background.jpg');
     background-size: cover;
     margin: 23px auto;
     width: 68%;
