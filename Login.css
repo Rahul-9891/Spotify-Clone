@@ -4,7 +4,7 @@
 }
 
 body{
-    background: url(/Photos/about1.jpg);
+    background: url(./Photos/about1.jpg);
     background-size: cover;
     
 }
