@@ -111,6 +111,8 @@ nav ul li {
     color: white;
     font-family: 'Varela Round', sans-serif;
     display: flex;
+     justify-content: center;
+    align-items: center;
     margin: 23px auto;
     width: 70%;
     border-radius: 12px;
