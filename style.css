@@ -49,6 +49,11 @@ nav ul {
     color: white;
 }
 
+nav ul a {
+    text-decoration: none;
+    color: white;
+}
+
 nav ul :hover {
     background-color: #1aa539;
     color: black;
