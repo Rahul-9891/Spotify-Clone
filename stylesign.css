@@ -4,7 +4,8 @@
 }
 
 body{
-    background-color: rgba(36, 37, 39, 0.4);; 
+     background: url(./Photos/about1.jpg);
+    background-size: cover;
     
 }
 #container{
@@ -15,12 +16,8 @@ body{
     top: 5vh;
     left: 450px;
     bottom: 5vh;
-    
-  /* margin: 100px 150px ;*/
     padding: 100px 90px;
-    
     border-radius: 15px;
-    background-color: black;
     border: 2px solid rgb(29, 35, 148);
    
 }
