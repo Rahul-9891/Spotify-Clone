@@ -13,7 +13,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: url(/Photos/about1.jpg);
+    background: url(./Photos/about1.jpg);
     background-size: cover;
 }
 .contact .content{
